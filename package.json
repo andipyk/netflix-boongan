@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack --node development",
+    "start": "webpack-dev-server --mode development --hot",
     "build": "webpack --node production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,7 +18,8 @@
     "babel-loader": "^8.1.0",
     "html-webpack-plugin": "^4.3.0",
     "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
     "react": "^16.13.1",
